@@ -1,14 +1,35 @@
 .section_one{
-    background-color: #06032bb4 !important;
-    padding: 10px 0px;
-  
+    background-color: #06032b02 !important;
+    padding: 0px 0px;
+  z-index: 99 !important;
 }
-
+.section_one .navbar{
+    border-bottom: 1px solid rgba(45, 6, 153, 0.185);
+    background-color: #11111173;
+}
+.section_one .navbar-nav .nav-item .btn{
+    color: #ddd8d8c9;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px !important;  
+}
+.section_one .navbar-nav .nav-item  .dropdown-menu{
+    padding: 5px !important;
+    --bs-dropdown-min-width: 6rem !important;
+    width: 100px !important;
+    background-color: #130632 !important;
+}
+.section_one .navbar-nav .nav-item  .dropdown-menu li a{
+    color: #ddd8d8cc;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px !important;  
+}
 .section_one .navbar-nav .nav-item .nav-link{
 color: #ddd8d8;
 font-style: normal;
 font-weight: 700;
-font-size: 12px !important;
+font-size: 14px !important;
 line-height: 18px;
 /* identical to box height, or 150% */
 
@@ -16,25 +37,31 @@ display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 2.4px;
-text-transform: uppercase;
+margin-right: 20px;
+
+}
+.section_one .navbar-nav .nav-item .margin_left{
+    margin-right: 50px !important;
 }
 .section_one .navbar-nav .nav-item .num_btn{
-    background-color: #2314C9;
-    border-radius: 20px;
-    padding: 10px 30px;
+    background-color: rgb(35, 20, 201);
+    border-radius: 5px;
+    padding: 15px 21px;
     text-decoration: none;
-    color: #ddd8d8;
-font-style: normal;
-font-weight: 700;
-font-size: 12px !important;
-line-height: 34px;
+    color: rgb(221, 216, 216);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px;
+    font-size: 14px !important;
 
 }
 
 
 
 .section_two{
-    position: relative;
+    z-index: -1;
+
+    
     
     top: -87px;
 }
@@ -120,8 +147,33 @@ color: #FDFDFD;
     
     padding-bottom: 100px;
 }
+.section_four{
+    background-color: hsla(240, 64%, 8%, 0.938);
+    padding-bottom: 50px;
+    position: relative;
+}
+.section_four .img{
+    position: absolute;
+    z-index: -9;
+}
+.section_four .banner_slider .item .one h2{
+    padding-top: 90px;
 
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 48px;
+color: #ddd8d8;
+}
+.section_four .banner_slider .item .one h4{
+    margin-top: 30px;
+    padding-right: 120px;
 
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+color: #ddd8d8;
+}
 .section_five {
     background: rgb(2,0,36);
     background: linear-gradient(0deg, rgb(1, 0, 12) 0%, rgba(3, 17, 65, 0.973) 45%, rgb(1, 0, 15) 99%);
@@ -159,6 +211,21 @@ color: #FDFDFD;
     background: rgb(2,0,36);
     background: linear-gradient(0deg, rgb(1, 0, 12) 0%, rgba(3, 17, 65, 0.973) 45%, rgb(1, 0, 15) 99%);
     padding-bottom: 50px;
+}
+.all_device {
+    background-color:#130632;
+}
+.all_device .heading h2{
+    padding-top: 40px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.795);
+    font-size: 34px;
+}
+.all_device .heading h4{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.795);
+    padding-bottom: 20px;
+    font-size: 14px;
 }
 .section_seven{
     background-color:#130632;
