@@ -1,0 +1,230 @@
+.section_one{
+    background-color: #06032bb4 !important;
+    padding: 10px 0px;
+  
+}
+
+.section_one .navbar-nav .nav-item .nav-link{
+color: #ddd8d8;
+font-style: normal;
+font-weight: 700;
+font-size: 12px !important;
+line-height: 18px;
+/* identical to box height, or 150% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 2.4px;
+text-transform: uppercase;
+}
+.section_one .navbar-nav .nav-item .num_btn{
+    background-color: #2314C9;
+    border-radius: 20px;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #ddd8d8;
+font-style: normal;
+font-weight: 700;
+font-size: 12px !important;
+line-height: 34px;
+
+}
+
+
+
+.section_two{
+    position: relative;
+    
+    top: -87px;
+}
+.section_two .img{
+    position: absolute;
+    top: 0;
+    z-index: -9;
+    width: 100%;
+}
+.section_two .img img{
+    height: 680px;
+    width: 100%;
+}
+.section_two .details h1{
+    font-style: normal;
+font-weight: 600;
+font-size: 55px;
+padding-top: 170px;
+
+color: #FDFDFD;
+}
+.section_two .details h2{
+    font-style: normal;
+font-weight: 600;
+font-size: 18px;
+padding-top: 20px;
+
+color: #FDFDFD;
+}
+
+.section_two .details a{
+    text-decoration: none;
+    padding: 8px 25px;
+    border-radius: 20px;
+    border: 2px solid white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 190px;
+    margin-top: 30px;
+}
+
+.section_three{
+    margin-top: 150px;
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgb(1, 0, 12) 0%, rgba(3, 17, 65, 0.973) 45%, rgb(1, 0, 15) 99%);
+    
+}
+.section_three .heading h2{
+    text-align: center;
+    font-size: 35px;
+    color: rgb(189, 181, 181);
+    font-weight: 600;
+    margin-top: 100px;
+    padding-top: 30px;
+}
+.section_three .content  h2{
+    text-align: center;
+    font-size: 23px;
+    font-weight: normal;
+    color: rgb(190, 190, 190);
+    margin-top: 30px;
+}
+
+
+.section_three .content  p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: normal;
+    color: rgb(190, 190, 190);
+    margin-top: 10px;
+}
+
+.section_three .content h3{
+    border: 2px solid rgb(204, 199, 199); 
+    padding: 50px;
+    color: white;
+    font-size: 23px;
+    margin: 10px;
+    border-radius: 6px;
+}
+.section_three .content{
+    
+    padding-bottom: 100px;
+}
+
+
+.section_five {
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgb(1, 0, 12) 0%, rgba(3, 17, 65, 0.973) 45%, rgb(1, 0, 15) 99%);
+    padding-bottom: 50px;
+}
+
+.section_five .heading h2{
+    text-align: center;
+    font-size: 35px;
+    color: rgb(189, 181, 181);
+    font-weight: 600;
+    padding-top: 30px;
+}
+
+.section_five .heading p {
+    text-align: center;
+    font-size: 17px;
+    color: rgb(189, 181, 181);
+    font-weight: 500;
+    padding-top: 20px;
+    padding: 21px 457px;
+}
+.section_five .image {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+}
+
+.section_five .image .img img{
+    width: 130px;
+}
+
+.srction_six{
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgb(1, 0, 12) 0%, rgba(3, 17, 65, 0.973) 45%, rgb(1, 0, 15) 99%);
+    padding-bottom: 50px;
+}
+.section_seven{
+    background-color:#130632;
+    padding-bottom: 50px;
+}
+.section_seven .heading h2{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(189, 181, 181);
+    font-weight: 600;
+    padding-top: 90px;
+    margin-bottom: 30px;
+}
+.section_seven .accordion {
+    background-color: #130632 !important;
+    border-color: #483781 !important;
+}
+.section_seven .accordion .accordion-item{
+    background-color: #130632 !important;
+    border-color: #483781 !important;
+    margin:   10px 0px;
+}
+.section_seven .accordion .accordion-item .accordion-body{
+    color: #483781 !important;
+}
+.section_seven .accordion .accordion-button{
+    background-color: #130632 !important;
+    color: #483781 !important;
+}
+
+.footer{
+    background-color:#130632;
+    padding-bottom: 20px;
+}
+.footer .one a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2.56px;
+text-transform: uppercase;
+
+color: #FDFDFD;
+
+
+}
+.footer .two a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+
+color: #fdfdfdb4;
+padding-top: 20px;
+
+
+}
+.footer .three h4{
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 20px;
+} 
+.footer .one{
+    display: flex;
+    justify-content: space-around;
+}
