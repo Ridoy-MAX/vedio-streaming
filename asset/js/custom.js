@@ -23,7 +23,7 @@ $(document).ready(function(){
       //slider start;
     $('.banner_slider').slick({
         autoplay: true,
-        autoplaySpeed: 1800, 
+        autoplaySpeed: 4000, 
         dots: false,
         slidesToShow: 1,
         arrows:false,
